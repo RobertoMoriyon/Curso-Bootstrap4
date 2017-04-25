@@ -1,0 +1,11 @@
+//-----------------------------
+// PATRON DE COLORES
+// Lo hacemos usando variables de SaSS y aplicando 3 colores principales
+//-----------------------------
+$texto:#111111;
+$principal:#12AFAF;
+$secundario:#009500;
+
+body{
+    background: $principal;
+}
