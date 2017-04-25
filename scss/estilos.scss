@@ -6,6 +6,40 @@ $texto:#111111;
 $principal:#12AFAF;
 $secundario:#009500;
 
+html{
+    font-size: 15px;
+}
+
+
 body{
-    background: $principal;
+    font-family: 'Open Sans', sans-serif;
+    color: $texto;
+}
+
+.encabezado{
+    background: $texto;
+    color: #fff;
+    padding: .5rem 0;
+
+}
+
+.encabezado .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.encabezado .logo img{
+    width: 150px;
+    height: auto;
+}
+
+/*Estilos para el boton buscar y el boton menú*/
+.boton-buscar, .boton-menu{
+    border: 0px;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0 .5rem;
+    background: transparent;
+    color: #FFF;
 }
