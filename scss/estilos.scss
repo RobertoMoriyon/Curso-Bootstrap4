@@ -43,3 +43,13 @@ body{
     background: transparent;
     color: #FFF;
 }
+
+/*Estilos para el boton buscar y el boton menú*/
+.boton-buscar:focus, .boton-menu:focus{
+    border: 0px;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0 .5rem;
+    background: transparent;
+    color: #FFF;
+}
